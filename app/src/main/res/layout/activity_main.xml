@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context="com.example.nitantsood.minesweeper.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Choose To Start"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/easybutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="level"
+        android:text="EASY"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/mediumbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="level"
+        android:text="MEDIUM"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/hardbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="level"
+        android:text="HARD"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nitant Sood"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp" />
+</LinearLayout>
